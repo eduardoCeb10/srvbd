@@ -10,11 +10,11 @@ class Bd
 
    self::$pdo = new PDO(
     // cadena de conexión
-    "sqlite:srvbd.db",
+    "mysql:host=sql113.infinityfree.com;dbname=if0_37588896_srv;",
     // usuario
-    null,
+    "if0_37588896",
     // contraseña
-    null,
+    "jx04YcEhH3cIoV",
     // Opciones: pdos no persistentes y lanza excepciones.
     [PDO::ATTR_PERSISTENT => false, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
    );
